@@ -1,0 +1,64 @@
+ <Form.Group controlId="exampleForm.ControlSelect1">
+    <Form.Label>Example select</Form.Label>
+    <Form.Control as="select">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </Form.Control>
+  </Form.Group>
+  <Form.Group controlId="exampleForm.ControlSelect2">
+    <Form.Label>Example multiple select</Form.Label>
+    <Form.Control as="select" multiple>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </Form.Control>
+  </Form.Group>
+
+
+
+   <label for="Habits">Select Habit:</label>
+
+<select name="Habits" id="Habits" multiple>
+  <option value="Exercise">Exercise</option>
+  <option value="Drink Water">Drink Water</option>
+  <option value="Pray">Pray</option>
+  <option value="Eat a fruit">Eat a fruit</option>
+  <option value="Visit Dentist">Visit Dentist</option>
+</select> 
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select Habit
+  <span class="caret"></span></button>
+  
+</div>  
+
+<ul class="dropdown-menu">
+    <li><a href="#">Exercise</a></li>
+    <li><a href="#">Drink Water</a></li>
+    <li><a href="#">Pray</a></li>
+    <li><a href="#">Eat a fruit</a></li>
+    <li><a href="#">medical appointments</a></li>
+</ul>
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+nav{
+    background-color: rgb(77, 70, 180);
+
+}
+.nav-item{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 900px;
+}
+
+.nav-list{
+    display: inline;
+    padding: 40px;
+    
+}
+
+.nav-item a{
+    text-decoration: none;
+}
