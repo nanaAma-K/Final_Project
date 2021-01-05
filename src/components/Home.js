@@ -25,16 +25,7 @@ function Home() {
   <h>Trust me to remind you!</h>
 </div>
     
-    <div class="row">
-      <div class="col-4">
-        <label style={{color:'blue'}}>set time</label>
-        <input type= "time" id="time" name="time"></input>
-      </div>
-      <div class="col-4">
-      < label style={{color:'blue'}}>set date</label><br/>
-        <input type = "date" id="date" name="date"></input>
-      </div>
-    </div>
+    
     
 
     
