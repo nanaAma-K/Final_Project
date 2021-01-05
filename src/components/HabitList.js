@@ -33,6 +33,7 @@ function HabitList() {
   function handleSave() {
     console.log(formValues);
     setReminder([...reminder, formValues])
+    console.log(reminder);
   }
 
     return (
@@ -54,7 +55,7 @@ function HabitList() {
   <div class="col-6">
     <label for="Habits" style={{color:'blue'}}>Select Habit</label>
 
-    <select>
+    <select name="habit" value={formValues.habit} onChange={formChange}>
       {listItems}
     </select>
 
